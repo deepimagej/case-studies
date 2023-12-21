@@ -10,8 +10,8 @@ This repository contains the necessary codes and scripts to replicate the case s
   - `prepare_dataset.py`: Script for preparing the dataset for image-to-image translation and segmentation.
   - `StarDist Postprocess macro CS1.ijm`: ImageJ Macro for StarDist post-processing in Case Study 1.
 - **Notebooks**: [Pix2Pix](https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/pix2pix_ZeroCostDL4Mic.ipynb) and [StarDist 2D](https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/StarDist_2D_ZeroCostDL4Mic.ipynb) from ZeroCostDL4Mic.
-- **Dataset**: [Add link to dataset for CS1]
-- **Models**: [Add link to models used in CS1]
+- **Dataset**: [Pix2Pix, Lifeact-RFP actin stain images](https://doi.org/10.5281/zenodo.3941889) and [StarDist, sir-DNA dapi stain images](https://doi.org/10.5281/zenodo.3715492)
+- **Models**: [Pix2Pix for Image Translation from Lifeact-RFP to sir-DNA](https://zenodo.org/records/10405149) and [StarDist Model for Nuclei Segmentation in Synthetic Lifeact-RFP](https://zenodo.org/records/10406307)
 
 ### Case Study 2: Comprehensive 3D Nuclei Segmentation with deepImageJ
 - **Description**: In this case study, deepImageJ is utilized for detailed 3D nuclei segmentation, showcasing its capability in handling complex volumetric data. The pipeline involves the generation of ground truth data, followed by the use of StarDist for nuclei segmentation. The pipeline is then integrated into a macro for batch processing.
@@ -20,13 +20,13 @@ This repository contains the necessary codes and scripts to replicate the case s
   - `Mount_stardist_dataset.py`: Script for setting up the StarDist dataset for 3D segmentation.
   - `StarDist_postprocess_macro_cs2.ijm`: ImageJ Macro for StarDist post-processing in Case Study 2.
 - **Notebooks**: [StarDist 2D](https://colab.research.google.com/github/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/StarDist_2D_ZeroCostDL4Mic.ipynb)
-- **Dataset**: [Add link to dataset for CS2]
-- **Models**: [Add link to models used in CS2]
+- **Dataset**: Developing Tribolium Castaneum Embryo from [Cell Tracking Challenge](http://celltrackingchallenge.net/3d-datasets/)
+- **Model**: [StarDist Model for Developing Tribolium Castaneum Embryo](https://zenodo.org/records/10406344)
 
 ### Case Study 3: Segmentation of Arabidopsis Apical Stem Cells and Integration with the BioImage Model Zoo in deepImageJ
 - **Description**: This case study involves the segmentation of Arabidopsis apical stem cells and demonstrates the integration with the BioImage Model Zoo using deepImageJ.
-- **Dataset**: [Add link to dataset for CS3]
-- **Models**: [Add link to models used in CS3]
+- **Dataset**: [Research data supporting Cell size and growth regulation in the Arabidopsis thaliana apical stem cell niche](https://www.repository.cam.ac.uk/items/f7cdcf20-e8ca-4cf5-b7ab-90350a8d00b2)
+- **Models**: [3D Unet Arabidopsis Apical Stem Cells](https://zenodo.org/records/7768142) with `emotional-cricket` ID for the [BioImage Model Zoo](bioimage.io)
 
 ## Installation and Usage
 
