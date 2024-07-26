@@ -36,9 +36,7 @@ Please ensure you have deepImageJ and the required plugins installed in your Ima
 
 Contributions to this repository are welcome. Please open an issue or submit a pull request with your suggestions or enhancements.
 
-## Citation
-
-If you use the code or data from this repository in your research, please cite the following articles:
+## References
 
 Gómez-de-Mariscal, E., García-López-de-Haro, C., Ouyang, W., Donati, L., Lundberg, E., Unser, M., ... & Sage, D. (2021). DeepImageJ: A user-friendly environment to run deep learning models in ImageJ. Nature Methods, 18(10), 1192-1195.
 
@@ -51,6 +49,11 @@ de Haro, C. G. L., Dallongeville, S., Musset, T., de Mariscal, E. G., Sage, D., 
 von Chamier, L., Laine, R. F., Jukkala, J., Spahn, C., Krentzel, D., Nehme, E., ... & Henriques, R. (2021). Democratising deep learning for microscopy with ZeroCostDL4Mic. Nature communications, 12(1), 2276.
 
 Maška, M., Ulman, V., Delgado-Rodriguez, P., Gómez-de-Mariscal, E., Nečasová, T., Guerrero Peña, F. A., ... & Ortiz-de-Solórzano, C. (2023). The Cell Tracking Challenge: 10 years of objective benchmarking. Nature Methods, 1-11.
+
+## Citation
+If you reproduce any of the use cases presented in this GitHub repository, either in part or in full, please cite this article:
+
+Fuster-Barcelo, C., Garcia Lopez de Haro, C., Gomez-de-Mariscal, E., Ouyang, W., Olivo-Marin, J. C., Sage, D., & Munoz-Barrutia, A. (2024). Bridging the Gap: Integrating Cutting-edge Techniques into Biological Imaging with deepImageJ. bioRxiv, 2024-01.
 
 ## License
 
